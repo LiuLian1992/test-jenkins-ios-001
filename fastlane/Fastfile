@@ -1,0 +1,5 @@
+lane :beta do
+  #development,enterprise 无论xcode什么版本必须打开此gym配置
+  gym(export_method: "enterprise")
+  pgyer(api_key: "2891d62d274ffde4abfbf66d13930eee", user_key: "fd6928118729479be42f2fe9962153c2",password:"888",install_type:"2")
+end
